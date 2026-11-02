@@ -1,10 +1,10 @@
-# 🎬 ReLife AI — Official Live Judging Demo Script
+# 🎬 ReLife AI — Official Live Demo Script
 
-This document details the exact, step-by-step click-path to demonstrate the full capabilities of **ReLife AI** in front of judges in 5-7 minutes.
+This document details the exact, step-by-step click-path to demonstrate the full capabilities of **ReLife AI**.
 
 ---
 
-## ⚡ Fast Demo Access Credentials
+##  Fast Demo Access Credentials
 
 | Role | Email | Password | Primary Demo Screen |
 | :--- | :--- | :--- | :--- |
@@ -19,7 +19,7 @@ This document details the exact, step-by-step click-path to demonstrate the full
 
 ---
 
-## 📍 Step-by-Step Live Judging Walkthrough
+##  Step-by-Step Live Walkthrough
 
 ### Step 1: Public Marketing Landing Page (`/`)
 1. Open `http://localhost:3000`.
@@ -147,7 +147,7 @@ This document details the exact, step-by-step click-path to demonstrate the full
 
 ---
 
-### Step 11: 🌟 FLAGSHIP SALES PAGE — Enterprise ROI Calculator (`/roi-calculator`)
+### Step 11:  FLAGSHIP SALES PAGE — Enterprise ROI Calculator (`/roi-calculator`)
 1. Open `/roi-calculator` (public sales page).
 2. Drag the large sliders:
    - Annual Return Volume: `25,000 units/year`
@@ -162,7 +162,7 @@ This document details the exact, step-by-step click-path to demonstrate the full
 
 ---
 
-## 🏆 Summary Checklist for Judges
+##  Summary Checklist for Judges
 - [x] Full-stack architecture (FastAPI + MongoDB Beanie ODM + Next.js App Router).
 - [x] Trained YOLOv8 defect detection model integrated end-to-end with bounding box overlay.
 - [x] 5-Pathway Decision Simulator with live What-If criteria sliders and Framer Motion reordering.
