@@ -4,7 +4,7 @@
 
 ---
 
-## 🌟 Executive Overview
+##  Executive Overview
 
 Consumer electronics returns cause over **$500 Billion** in annual value erosion, and electronic waste remains the fastest-growing solid waste stream on earth. Traditional reverse logistics relies on manual inspections, static spreadsheets, and blanket liquidation at single-digit recovery rates.
 
@@ -17,7 +17,7 @@ Consumer electronics returns cause over **$500 Billion** in annual value erosion
 
 ---
 
-## 🏗️ Architecture & Technology Stack
+##  Architecture & Technology Stack
 
 | Layer | Technologies Used |
 | :--- | :--- |
@@ -32,7 +32,7 @@ Consumer electronics returns cause over **$500 Billion** in annual value erosion
 
 ---
 
-## 📋 Features Mapping Table
+##  Features Mapping Table
 
 ### Mandatory Hackathon Features
 
@@ -51,7 +51,7 @@ Consumer electronics returns cause over **$500 Billion** in annual value erosion
 | **Certified Storefront** | Refurbished electronics consumer catalog with Trust Score progress rings | ✅ Complete | [`/store`](frontend/app/store/page.tsx) |
 | **Role-Aware Dashboards** | Dedicated workstations for Admin, Inspector, Reseller, Repair Partner, Recycler, Customer | ✅ Complete | Sidebar role switcher with customized views per persona |
 
-### New Innovation Features
+### New Features
 
 | Innovation Feature | Value Proposition | Status | Implementation Details |
 | :--- | :--- | :--- | :--- |
@@ -65,7 +65,7 @@ Consumer electronics returns cause over **$500 Billion** in annual value erosion
 
 ---
 
-## 🚀 Local Run Setup (No Docker Required)
+##  Local Run Setup (No Docker Required)
 
 Follow these simple steps to run both backend and frontend on your local system:
 
@@ -131,7 +131,7 @@ npm run dev
 
 ---
 
-## 🔑 Test Credentials (1-Click Fast Login)
+##  Test Credentials (1-Click Fast Login)
 
 All demo accounts come pre-configured in the seeded database:
 
@@ -146,9 +146,9 @@ All demo accounts come pre-configured in the seeded database:
 
 ---
 
-## 📖 Live Judging Demo Guide
+##  Live Demo Guide
 
-For the exact 5-minute live judged demonstration script, see:  
+For the exact 5-minute live demonstration script, see:  
 👉 **[docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md)**
 
 ---
