@@ -1,0 +1,122 @@
+[
+  {
+    "file": "01_clothes_jacket.jpg",
+    "category": "clothes",
+    "label": "Clothes & Apparel / Fashion",
+    "confidence": 0.95,
+    "source": "gemini-3.5-flash-lite",
+    "brand": "Zara",
+    "model": "Classic Denim Jacket / Cotton Hoodie",
+    "msrp": 4999.0
+  },
+  {
+    "file": "02_gaming_console_ps5.jpg",
+    "category": "gaming_console",
+    "label": "Gaming Consoles & Hardware",
+    "confidence": 0.7145,
+    "source": "clip_zero_shot",
+    "brand": "Sony",
+    "model": "PlayStation 5 Disc Edition (825GB)",
+    "msrp": 54990.0
+  },
+  {
+    "file": "03_smartphone_iphone.jpg",
+    "category": "smartphone",
+    "label": "Smartphone / Mobile",
+    "confidence": 0.95,
+    "source": "gemini-3.5-flash-lite",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro Max (256GB)",
+    "msrp": 129900.0
+  },
+  {
+    "file": "04_laptop_macbook.jpg",
+    "category": "laptop",
+    "label": "Laptop / Ultrabook",
+    "confidence": 0.9667,
+    "source": "yolov8s_coco",
+    "brand": "Apple",
+    "model": "MacBook Pro 14 (M1 Pro)",
+    "msrp": 149900.0
+  },
+  {
+    "file": "05_tablet_ipad.jpg",
+    "category": "tablet",
+    "label": "Tablet / iPad",
+    "confidence": 0.9204,
+    "source": "clip_zero_shot",
+    "brand": "Apple",
+    "model": "iPad Air 10.9-inch (M1)",
+    "msrp": 59900.0
+  },
+  {
+    "file": "06_smartwatch_applewatch.jpg",
+    "category": "smartwatch",
+    "label": "Smartwatch & Wearables",
+    "confidence": 0.9992,
+    "source": "clip_zero_shot",
+    "brand": "Apple",
+    "model": "Apple Watch Series 8 GPS 45mm",
+    "msrp": 41900.0
+  },
+  {
+    "file": "07_audio_headphones.jpg",
+    "category": "audio",
+    "label": "Audio & Headphones / Earbuds",
+    "confidence": 1.0,
+    "source": "gemini-3.5-flash-lite",
+    "brand": "Sony",
+    "model": "WH-1000XM5 Noise Canceling Headphones",
+    "msrp": 29990.0
+  },
+  {
+    "file": "08_camera_optical.jpg",
+    "category": "camera",
+    "label": "Camera & Optical Equipment",
+    "confidence": 0.9881,
+    "source": "clip_zero_shot",
+    "brand": "Canon",
+    "model": "EOS R50 Mirrorless with 18-45mm Kit",
+    "msrp": 68990.0
+  },
+  {
+    "file": "09_monitor_display.jpg",
+    "category": "monitor",
+    "label": "Monitors & Smart Displays",
+    "confidence": 0.968,
+    "source": "clip_zero_shot",
+    "brand": "Dell",
+    "model": "27-inch 4K UHD IPS Designer Display",
+    "msrp": 38900.0
+  },
+  {
+    "file": "10_footwear_sneaker.jpg",
+    "category": "footwear",
+    "label": "Footwear & Shoes / Sneakers",
+    "confidence": 1.0,
+    "source": "gemini-3.5-flash-lite",
+    "brand": "Nike",
+    "model": "Air Max Retro Sneaker (Size 10)",
+    "msrp": 9999.0
+  },
+  {
+    "file": "11_home_appliance_microwave.jpg",
+    "category": "home_appliances",
+    "label": "Home Appliances & Kitchenware",
+    "confidence": 0.967,
+    "source": "yolov8s_coco",
+    "brand": "Dyson",
+    "model": "Air Purifier & HEPA Fan V4",
+    "msrp": 34990.0
+  },
+  {
+    "file": "11_home_appliance_purifier.jpg",
+    "category": "home_appliances",
+    "label": "Home Appliances & Kitchenware",
+    "confidence": 0.95,
+    "source": "gemini-3.5-flash-lite",
+    "brand": "Dyson",
+    "model": "Air Purifier & HEPA Fan V4",
+    "msrp": 34990.0
+  }
+]
