@@ -1,0 +1,125 @@
+[
+  {
+    "test_name": "Case 1: Clothing on Chair (messy_clothes_webcam.jpg)",
+    "file": "test_images/messy_clothes_webcam.jpg",
+    "pipeline_path": "gemini_fallback",
+    "detected_category": "clothes",
+    "category_label": "Clothes & Apparel / Fashion",
+    "confidence": 0.95,
+    "source": "gemini-3.5-flash-lite",
+    "cropped_applied": true,
+    "crop_box": [
+      0.0016360000000000124,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "clip_margin": 0.2928,
+    "is_out_of_scope": false,
+    "condition_score": 5,
+    "condition_flags": [
+      "irregular edge pattern detected (density: 0.0507, irregularity: 0.57)",
+      "26 contour breaks / surface fracture points detected",
+      "color anomaly / stain detected in region (X: 381, Y: 264)",
+      "color anomaly / stain detected in region (X: 366, Y: 158)",
+      "color anomaly / stain detected in region (X: 198, Y: 122)"
+    ],
+    "gemini_fallback": {
+      "triggered": true,
+      "applied": true,
+      "latency": 3.427,
+      "result": {
+        "success": true,
+        "category": "clothes",
+        "category_raw": "Clothes & Apparel / Fashion",
+        "confidence": 0.95,
+        "reasoning": "The image presents a collection of clothing items including a knit beanie, sweater, and jeans laid out together.",
+        "visible_defects": [],
+        "out_of_scope": false,
+        "latency": 3.427,
+        "raw_response": {
+          "category": "Clothes & Apparel / Fashion",
+          "confidence": 0.95,
+          "reasoning": "The image presents a collection of clothing items including a knit beanie, sweater, and jeans laid out together.",
+          "visible_defects": [],
+          "out_of_scope": false
+        }
+      }
+    }
+  },
+  {
+    "test_name": "Case 2: Clothing Held Up in Hand (clothing_held_in_hand.jpg)",
+    "file": "test_images/clothing_held_in_hand.jpg",
+    "pipeline_path": "gemini_fallback",
+    "detected_category": "clothes",
+    "category_label": "Clothes & Apparel / Fashion",
+    "confidence": 1.0,
+    "source": "gemini-3.5-flash-lite",
+    "cropped_applied": true,
+    "crop_box": [
+      0.249344,
+      0.170688,
+      0.688056,
+      0.888612
+    ],
+    "clip_margin": 0.3363,
+    "is_out_of_scope": false,
+    "condition_score": 13,
+    "condition_flags": [
+      "irregular edge pattern detected (density: 0.0539, irregularity: 0.60)",
+      "32 contour breaks / surface fracture points detected",
+      "color anomaly / stain detected in region (X: 210, Y: 221)"
+    ],
+    "gemini_fallback": {
+      "triggered": true,
+      "applied": true,
+      "latency": 2.806,
+      "result": {
+        "success": true,
+        "category": "clothes",
+        "category_raw": "Clothes & Apparel / Fashion",
+        "confidence": 1.0,
+        "reasoning": "The image clearly shows a black leather jacket placed on a hanger.",
+        "visible_defects": [],
+        "out_of_scope": false,
+        "latency": 2.806,
+        "raw_response": {
+          "category": "Clothes & Apparel / Fashion",
+          "confidence": 1.0,
+          "reasoning": "The image clearly shows a black leather jacket placed on a hanger.",
+          "visible_defects": [],
+          "out_of_scope": false
+        }
+      }
+    }
+  },
+  {
+    "test_name": "Case 3: Original Phone Held at Angle with Hand/Arm Visible (messy_phone_webcam.jpg)",
+    "file": "test_images/messy_phone_webcam.jpg",
+    "pipeline_path": "primary_pipeline",
+    "detected_category": "smartphone",
+    "category_label": "Smartphone / Mobile",
+    "confidence": 0.8214,
+    "source": "clip_zero_shot",
+    "cropped_applied": true,
+    "crop_box": [
+      0.442528,
+      0.521888,
+      0.545072,
+      0.8715120000000001
+    ],
+    "clip_margin": 0.7384,
+    "is_out_of_scope": false,
+    "condition_score": 48,
+    "condition_flags": [
+      "irregular edge pattern detected (density: 0.1407, irregularity: 1.00)",
+      "color anomaly / stain detected in region (X: 33, Y: 86)"
+    ],
+    "gemini_fallback": {
+      "triggered": false,
+      "applied": false,
+      "latency": 0.0,
+      "result": null
+    }
+  }
+]

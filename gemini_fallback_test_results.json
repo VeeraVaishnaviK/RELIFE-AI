@@ -1,0 +1,66 @@
+[
+  {
+    "test_name": "Case 1: Clothing on Chair (Draped denim jacket, previous out_of_scope case)",
+    "file": "test_images/messy_clothes_webcam.jpg",
+    "pipeline_path": "primary_pipeline",
+    "detected_category": "smartphone",
+    "confidence": 0.4116,
+    "source": "clip_zero_shot",
+    "cropped_applied": true,
+    "crop_box": [
+      0.15,
+      0.15,
+      0.85,
+      0.85
+    ],
+    "clip_margin": 0.272,
+    "is_out_of_scope": false,
+    "condition_score": 79,
+    "condition_flags": [
+      "color anomaly / stain detected in region (X: 422, Y: 304)"
+    ],
+    "gemini_fallback": {
+      "triggered": true,
+      "applied": false,
+      "latency": 0.0,
+      "result": {
+        "success": false,
+        "reason": "GEMINI_API_KEY not configured or SDK unavailable",
+        "latency": 0.0
+      }
+    }
+  },
+  {
+    "test_name": "Case 2: Clothing Held Up in Hand (Product presented to camera with hand/arm visible)",
+    "file": "test_images/clothing_held_in_hand.jpg",
+    "pipeline_path": "primary_pipeline",
+    "detected_category": "clothes",
+    "confidence": 0.4707,
+    "source": "clip_zero_shot",
+    "cropped_applied": true,
+    "crop_box": [
+      0.249344,
+      0.170688,
+      0.688056,
+      0.888612
+    ],
+    "clip_margin": 0.3363,
+    "is_out_of_scope": false,
+    "condition_score": 13,
+    "condition_flags": [
+      "irregular edge pattern detected (density: 0.0539, irregularity: 0.60)",
+      "32 contour breaks / surface fracture points detected",
+      "color anomaly / stain detected in region (X: 210, Y: 221)"
+    ],
+    "gemini_fallback": {
+      "triggered": true,
+      "applied": false,
+      "latency": 0.0,
+      "result": {
+        "success": false,
+        "reason": "GEMINI_API_KEY not configured or SDK unavailable",
+        "latency": 0.0
+      }
+    }
+  }
+]
