@@ -1,0 +1,11 @@
+path: c:/Users/vaish/OneDrive/clg/HACKATHON/ml/dataset
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: scratch
+  1: dent
+  2: crack
+  3: missing_component
+  4: deformation

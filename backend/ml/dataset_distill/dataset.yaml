@@ -1,0 +1,13 @@
+names:
+  0: scratch
+  1: dent
+  2: crack
+  3: missing_component
+  4: deformation
+  5: burn_mark
+  6: corrosion
+  7: water_damage
+  8: display_crack
+path: C:\Users\vaish\OneDrive\clg\HACKATHON\backend\ml\dataset_distill
+train: train/images
+val: val/images

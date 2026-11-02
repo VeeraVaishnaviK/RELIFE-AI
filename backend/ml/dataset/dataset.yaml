@@ -1,0 +1,13 @@
+names:
+- scratch
+- dent
+- crack
+- missing_component
+- deformation
+- burn_mark
+- corrosion
+- water_damage
+nc: 8
+path: C:\Users\vaish\OneDrive\clg\HACKATHON\backend\ml\dataset
+train: train/images
+val: val/images
